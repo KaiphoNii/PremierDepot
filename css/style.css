@@ -1,0 +1,118 @@
+@font-face {
+    font-family: RobotoR;
+    src: url(../font/RobotoSlab-Regular.ttf);
+}
+@font-face {
+    font-family: RobotoB;
+    src: url(../font/RobotoSlab-Bold.ttf);
+}
+
+
+*{
+    font-family: sans-serif;
+}
+body{
+    background-color: #87BB34;
+}
+
+h1{
+    font-family: RobotoB;
+}
+h2{
+    font-family: RobotoB sans-serif;
+}
+.h2{
+    color: purple;
+}
+.vert{
+    background-color: #2EC738;
+}
+.jaune{
+    background-color: #CCD130;
+}
+.gold{
+    background-color: #C7B92E;
+}
+.vertinput{
+    background-color: #5BD130;
+}
+
+
+.divimgnav{
+    width: 5rem;
+}
+.hamburger{
+    background-color: #87BB34;
+}
+.backgroundimg{
+    background-image: url(../img/img\ background.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 30vh;
+}
+.backgroundimg h1{
+    position: absolute;
+    text-shadow: 1px 1px black;
+    color: green;
+    width: 80%;
+}
+
+
+
+
+.documentation{
+    width: 80%;
+}
+
+
+.social{
+    background-color: grey;
+    font-size: 2rem;
+}
+.Coordonnées{
+    border-bottom: 1px purple solid;
+}
+.mention{
+    margin: 0;
+}
+
+
+::placeholder {
+    color: white;
+  }
+
+
+
+
+@media screen and (min-width: 768px){
+    .pfooter{
+        text-align: center;
+    }
+    .backgroundimg{
+        height: 50vh;
+    }
+    .Formqua{
+        width: 50%;
+        float: right;
+    }
+    .obj{
+        float: left;
+        width: 50%;
+    }
+    .date{
+        float: left;
+        width: 45%;
+    }
+    .email{
+        width: 50%;
+    }
+}
+
+@media screen and (min-width: 1024px){
+    .ul{
+        text-align: right;
+    }
+    body .navbar{
+        justify-content: space-between;
+    }
+}
